@@ -11,10 +11,10 @@ public class TestesDescontos {
 		
 		CalculadoraDesconto calculadora = new CalculadoraDesconto();
 		
-		Orcamento orc1 =  new Orcamento(new BigDecimal("200"), 3);
+		Orcamento orc1 =  new Orcamento(new BigDecimal("200"), 6);
 		System.out.println(calculadora.calcular(orc1));
 		
-		Orcamento orc2 =  new Orcamento(new BigDecimal("3000"), 1);
+		Orcamento orc2 =  new Orcamento(new BigDecimal("1000"), 1);
 		System.out.println(calculadora.calcular(orc2));
 
 	}
