@@ -1,4 +1,4 @@
-package br.com.emersonmorgado.loja;
+package br.com.emersonmorgado.loja.orcamento;
 
 import java.math.BigDecimal;
 
@@ -9,7 +9,6 @@ public class Orcamento {
 	public Orcamento(BigDecimal valor) {
 		this.valor = valor;
 	}
-
 	public BigDecimal getValor() {
 		return valor;
 	}
